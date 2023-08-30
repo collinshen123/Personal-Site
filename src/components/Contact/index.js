@@ -11,6 +11,7 @@ justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
+padding: 40px 0px 80px 0px;
 @media (max-width: 960px) {
     padding: 0px;
 }
@@ -142,7 +143,7 @@ const Contact = () => {
 
 
   return (
-    <Container>
+    <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>

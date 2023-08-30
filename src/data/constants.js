@@ -18,7 +18,7 @@ export const Bio = {
       "Programmer",
     ],
     description:
-      "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "I am a third year student studying Informatics at the University of Washington. I am a motivated and versatile individual, always eager to take on new challenges. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/collinshen123",
     resume:
       "https://docs.google.com/document/d/12TS8kAHh3cuzrX_yW4odsFd3dHukmL6y64LixXkITFM/edit?usp=sharing",
@@ -383,8 +383,8 @@ export const Bio = {
         {
           name: "Collin Shen",
           img: "https://avatars.githubusercontent.com/u/58667267?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
         },
       ],
     },
@@ -411,26 +411,20 @@ export const Bio = {
         {
           name: "Collin Shen",
           img: "https://avatars.githubusercontent.com/u/58667267?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
         },
         {
           name: "Jaime Li",
-          img: "https://avatars.githubusercontent.com/u/105523676?v=4",
-          linkedin: "",
-          github: "",
+          img: "https://avatars.githubusercontent.com/u/105523676?v=4"
         },
         {
           name: "Erzhan Umar",
-          img: "https://avatars.githubusercontent.com/u/115045228?v=4",
-          linkedin: "",
-          github: "",
+          img: "https://avatars.githubusercontent.com/u/115045228?v=4"
         },
         {
           name: "Kailynn nguyen",
-          img: "https://avatars.githubusercontent.com/u/115045182?v=4",
-          linkedin: "",
-          github: "",
+          img: "https://avatars.githubusercontent.com/u/115045182?v=4"
         },
       ],
     },
@@ -444,26 +438,21 @@ export const Bio = {
         hateCrimes,
       tags: ["Python", "Pandas", "Numpy", "MatPlotLib", "PyCharm", "Plotly"],
       category: "data analysis",
-      github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-      webapp: "https://brain-tumor.netlify.app/",
+      github: "https://github.com/GConscious/ProjectHateCrimes",
       member: [
         {
           name: "Collin Shen",
           img: "https://avatars.githubusercontent.com/u/58667267?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
         },
         {
           name: "Amrith Gandham",
-          img: "https://avatars.githubusercontent.com/u/61984726?v=4",
-          linkedin: "",
-          github: "",
+          img: "https://avatars.githubusercontent.com/u/61984726?v=4"
         },
         {
           name: "Mykyta Lepikash",
-          img: "https://avatars.githubusercontent.com/u/115119452?v=4",
-          linkedin: "",
-          github: "",
+          img: "https://avatars.githubusercontent.com/u/115119452?v=4"
         },
         
       ],
