@@ -21,6 +21,7 @@ flex-direction: column;
 width: 100%;
 max-width: 1100px;
 gap: 12px;
+padding: 10px 0px 100px 0;
 @media (max-width: 960px) {
     flex-direction: column;
 }

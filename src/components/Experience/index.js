@@ -17,6 +17,9 @@ justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
+padding: 40px 0px 80px 0px;
+@media (max-width: 960px) {
+    padding: 0px;
 `
 
 const Wrapper = styled.div`
@@ -27,6 +30,7 @@ align-items: center;
 flex-direction: column;
 width: 100%;
 max-width: 1100px;
+padding: 10px 0px 100px 0;
 gap: 12px;
 @media (max-width: 960px) {
     flex-direction: column;
