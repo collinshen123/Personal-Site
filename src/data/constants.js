@@ -363,8 +363,8 @@ export const Bio = {
         {
           name: "Collin Shen",
           img: "https://avatars.githubusercontent.com/u/58667267?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
         },
       ],
     },
@@ -391,8 +391,8 @@ export const Bio = {
         {
           name: "Collin Shen",
           img: "https://avatars.githubusercontent.com/u/58667267?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
         },
       ],
     },
