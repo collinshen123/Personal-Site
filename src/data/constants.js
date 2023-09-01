@@ -8,6 +8,7 @@ import obesity from '../images/Obesity.png'
 import hateCrimes from '../images/HateCrimes.png'
 import uwLogo from '../images/UWLogo.jpeg'
 import ihs from '../images/ihs.png'
+import olympicsML from '../images/OlympicsML.png'
 
 export const Bio = {
     name: "Collin Shen",
@@ -358,6 +359,34 @@ export const Bio = {
       ],
       category: "machine learning",
       github: "https://github.com/collinshen123/ML-Prediction-Project",
+      member: [
+        {
+          name: "Collin Shen",
+          img: "https://avatars.githubusercontent.com/u/58667267?v=4",
+          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+          github: "https://github.com/rishavchanda/",
+        },
+      ],
+    },
+    {
+      id: 9,
+      title: "Olympics ML Prediction Project",
+      date: "Aug 2023 - Sep 2023",
+      description:
+        "Developed an ML project leveraging historical Olympic data to forecast a country's future medal count through a Linear Regression model. This project employed libraries such as pandas, matplotlib, seaborn, and scikit-learn to analyze and make predictions.",
+      image:
+      olympicsML,
+      tags: [
+        "Python",
+        "Jupiter Notebook", 
+        "Pandas",
+        "Matplotlib",
+        "Scikit-learn",
+        "Seaborn",
+        "Linear Regression",
+      ],
+      category: "machine learning",
+      github: "https://github.com/collinshen123/Olympics-ML",
       member: [
         {
           name: "Collin Shen",
