@@ -9,6 +9,7 @@ import hateCrimes from '../images/HateCrimes.png'
 import uwLogo from '../images/UWLogo.jpeg'
 import ihs from '../images/ihs.png'
 import olympicsML from '../images/OlympicsML.png'
+import salaryML from '../images/SalaryML.png'
 
 export const Bio = {
     name: "Collin Shen",
@@ -344,49 +345,25 @@ export const Bio = {
   export const projects = [
     {
       id: 9,
-      title: "ML Prediction Project",
-      date: "Oct 2022 - Nov 2022",
+      title: "Salaries ML Prediction Project",
+      date: "Sep 2023",
       description:
-        "Developed a machine learning prediction model to classify fruits in a project focused on accurate fruit identification.",
+        "Developed a machine learning Decision Tree Regressor web app to predict Software Engineering salaries based off of given country, education level, and years of experiance. Model was trained with data from Stack Overflow Developer Survey 2023",
       image:
-      MLPredictionProject,
+      salaryML,
       tags: [
         "Python",
         "Jupiter Notebook", 
-        "Tensorflow",
-        "KNN",
-        "Keras",
-      ],
-      category: "machine learning",
-      github: "https://github.com/collinshen123/ML-Prediction-Project",
-      member: [
-        {
-          name: "Collin Shen",
-          img: "https://avatars.githubusercontent.com/u/58667267?v=4",
-          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
-          github: "https://github.com/collinshen123",
-        },
-      ],
-    },
-    {
-      id: 9,
-      title: "Olympics ML Prediction Project",
-      date: "Aug 2023 - Sep 2023",
-      description:
-        "Developed an ML project leveraging historical Olympic data to forecast a country's future medal count through a Linear Regression model. This project employed libraries such as pandas, matplotlib, seaborn, and scikit-learn to analyze and make predictions.",
-      image:
-      olympicsML,
-      tags: [
-        "Python",
-        "Jupiter Notebook", 
+        "Streamlit",
+        "Decision Tree Regressor",
         "Pandas",
         "Matplotlib",
         "Scikit-learn",
-        "Seaborn",
-        "Linear Regression",
+        "NumPy",
       ],
       category: "machine learning",
-      github: "https://github.com/collinshen123/Olympics-ML",
+      github: "https://github.com/collinshen123/Salary-ML-App",
+      webapp: "https://salary-ml-prediction-collinshen.streamlit.app/",
       member: [
         {
           name: "Collin Shen",
@@ -417,6 +394,62 @@ export const Bio = {
         },
       ],
     },
+    {
+      id: 9,
+      title: "ML Prediction Project",
+      date: "Oct 2022 - Nov 2022",
+      description:
+        "Developed a machine learning prediction model to classify fruits in a project focused on accurate fruit identification.",
+      image:
+      MLPredictionProject,
+      tags: [
+        "Python",
+        "Jupiter Notebook", 
+        "Tensorflow",
+        "KNN",
+        "Keras",
+      ],
+      category: "machine learning",
+      github: "https://github.com/collinshen123/ML-Prediction-Project",
+      member: [
+        {
+          name: "Collin Shen",
+          img: "https://avatars.githubusercontent.com/u/58667267?v=4",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
+        },
+      ],
+    },
+    
+    {
+      id: 9,
+      title: "Olympics ML Prediction Project",
+      date: "Aug 2023 - Sep 2023",
+      description:
+        "Developed an ML project leveraging historical Olympic data to forecast a country's future medal count through a Linear Regression model. This project employed libraries such as pandas, matplotlib, seaborn, and scikit-learn to analyze and make predictions.",
+      image:
+      olympicsML,
+      tags: [
+        "Python",
+        "Jupiter Notebook", 
+        "Pandas",
+        "Matplotlib",
+        "Scikit-learn",
+        "Seaborn",
+        "Linear Regression",
+      ],
+      category: "machine learning",
+      github: "https://github.com/collinshen123/Olympics-ML",
+      member: [
+        {
+          name: "Collin Shen",
+          img: "https://avatars.githubusercontent.com/u/58667267?v=4",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
+        },
+      ],
+    },
+    
     {
       id: 1,
       title: "Obesity Study",
