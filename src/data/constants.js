@@ -10,6 +10,7 @@ import uwLogo from '../images/UWLogo.jpeg'
 import ihs from '../images/ihs.png'
 import olympicsML from '../images/OlympicsML.png'
 import salaryML from '../images/SalaryML.png'
+import streamlit from '../images/streamlit.png'
 
 export const Bio = {
     name: "Collin Shen",
@@ -39,11 +40,16 @@ export const Bio = {
           image:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
         },
-        // {
-        //   name: "Redux",
-        //   image:
-        //     "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-        // },
+        {
+          name: "Streamlit",
+          image:
+          streamlit,
+        },
+        {
+          name: "Tableau",
+          image:
+            tableauicon,
+        },  
         {
           name: "Next.js",
           image:
@@ -122,24 +128,24 @@ export const Bio = {
           name: "sqlite",
           image: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sqlite/sqlite-original.svg",
         },
-        // {
-        //   name: "Postgresql",
-        //   image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-        // },
+        {
+          name: "Pandas",
+          image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
+        },
         {
           name: "MongoDB",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
         },
         {
           name: "Node.js",
-          image: "https://nodejs.org/static/images/logo.svg",
+          image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
         },
         
-        // {
-        //   name: "Firebase",
-        //   image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-        // },
+        {
+          name: "Numpy",
+          image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
+        },
       ],
     },
     {
@@ -187,6 +193,16 @@ export const Bio = {
           image:
             "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         },
+        {
+          name: "VS Code",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        },
+        {
+          name: "Jupyter Notebook",
+          image:
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
+        },
         // {
         //   name: "Docker",
         //   image:
@@ -197,26 +213,14 @@ export const Bio = {
           image:
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg",
         },
-        {
-          name: "VS Code",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-        },
+        
         {
           name: "MS Office",
           image:
             "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH8AAAB/CAMAAADxY+0hAAAAflBMVEXrPAD////rNQDrOQD//Pvvb1bpJAD5zMLqMAD85N/xhm/qKgD60sn85+H++PX97+r3wLP73dX0o5H2tqnweWHuY0r3vK/0nov0p5nsSBvyk3zva07xf2n4xbntTynrPQ/tWDvsUDTuZET2r5/zl4TtVDDrRCTpBgDvbEfxh3d43bv2AAACyklEQVRoge2a666qMBCFsYVaaGm5KKigIHg5vv8LnoJmxwsIauvOTmb9l2+cNTBNuiwLBAKBQCDQ3xWmiKJfgyO2XPFFhhjC36cjgvO1mCjJwNuQ79aAGHZiOfmRCCOnYPQ7JWBKyyi0J7ey/cDbUvPToEz3pmLSKcnTSg2kuTYgRrNEdsMvcuNZQYy0ATM2r/2n8IsVPJ0jorcNmLLt7sH0/hLcJN/oK6Axff2874/y53pcUH3P4jF9v5ejga/6vo/egSsPPuZjRNQXdrTpmvnK9Fnwqum6+M1HbtTLZoKPKSnS8CP4B3xECm86BiB5VHHN/GazDXxhGwl3nVYHRMmTQl/nq+NMx2Z7ZCer+ZK2G18rH+PT0Mtmh7FXMvKz4/Tyn8+7nKYZJbd7RS/f7XuUcINVWXScLr7AF2Gcl0vafawwzLfDOi+pOtj1rVLD/Pw4cK41zPfowE+AD3zgAx/4wAc+8IEPfOADH/jABz7wgQ984AMf+MB/mW+H1dATDPJFkrHBBxjjc4+SET83w/frDRty3hhf8PwwOr+hne8vqldyPHrvP/2pcxzjuiE+Xv5brZw9IoRR1HvlZY5v4aLccSnDOPWc7RIxNpgl0stvb6Czurn+tqXLkyivtgWiFPWWoZtvtRmnS7CtkXB5oMqwWOPJYxkG+OcSvLubcBkGC8/Z3M+GGX4b/9h3JDCEH64jzykvs4GN8dsmoJuM39WDRduNrDzgozl+W4Ll8Z6s3bkbyZPIwOd8JUo2uzeTMFr4bQKrrHuTCeb5VuND8UYSSmjjn2Noqyej8AjnC6fQhr+UUC7GJbJkctrQ4cPT6yUwVnW/ktd/PC2p5vDlldQo5H3x1zZ1eTCdwW2ScV1JUMnTeUG/kkFut+TNKDRxUxOO9woRNLtsSTHdlcyc4/0lsOWJu/XMYr+VwVc+FCbj1iAQCAQCgbTpP3CDOmIarFJwAAAAAElFTkSuQmCC",
         }, 
-        {
-          name: "Tableau",
-          image:
-            tableauicon,
-        },       
-        // {
-        //   name: "Postman",
-        //   image:
-        //     "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-        // },
+             
+        
         // {
         //   name: "Adobe XD",
         //   image:

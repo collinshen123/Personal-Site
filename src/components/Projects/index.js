@@ -117,7 +117,7 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to Data Analysiss. Here are some of my projects.
+          I have been working on a wide range of projects, from Machine Learning to Data Analysis. Here are my projects.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
