@@ -341,7 +341,7 @@ export const Bio = {
       date: "Sep 2017 - June 2022",
       grade: "3.96",
       desc: "I completed the International Baccalaureate (IB) program during my four-year high school tenure, demonstrating strong academic commitment and interdisciplinary skills. I achieved recognition by advancing to the state level in the Technology Student Association (TSA), showcasing my dedication to extracurricular excellence.",
-      degree: "ISC(XII), Science with Computer",
+
     },
    
   ];
