@@ -11,6 +11,7 @@ import ihs from '../images/ihs.png'
 import olympicsML from '../images/OlympicsML.png'
 import salaryML from '../images/SalaryML.png'
 import streamlit from '../images/streamlit.png'
+import shirt from '../images/3d-shirt.png'
 
 export const Bio = {
     name: "Collin Shen",
@@ -415,6 +416,27 @@ export const Bio = {
       ],
       category: "machine learning",
       github: "https://github.com/collinshen123/ML-Prediction-Project",
+      member: [
+        {
+          name: "Collin Shen",
+          img: "https://avatars.githubusercontent.com/u/58667267?v=4",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
+        },
+      ],
+    },
+    {
+      id: 0,
+      title: "3D-shirt",
+      date: "Sep 2023 - Sep 2023",
+      description:
+        "Developed a full-stack web application using Three.js that allows you to design your own shirt on a interactive 3D model. Create your own designs with your own or AI generated images.",
+      image:
+        shirt,
+      tags: ["Three.Js", "Node.js", "React", "HTML", "CSS", "JavaScript", "Dall-e", "OpenAI API", "Valtio"],
+      category: "web app",
+      github: "https://github.com/collinshen123/3D-shirt",
+      webapp: "https://3d-shirt-collin.vercel.app/",
       member: [
         {
           name: "Collin Shen",
