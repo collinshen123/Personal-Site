@@ -12,6 +12,7 @@ import olympicsML from '../images/OlympicsML.png'
 import salaryML from '../images/SalaryML.png'
 import streamlit from '../images/streamlit.png'
 import shirt from '../images/3d-shirt.png'
+import fastapi from '../images/fastapi.png'
 
 export const Bio = {
     name: "Collin Shen",
@@ -432,7 +433,7 @@ export const Bio = {
       description:
         "A Fast API app where you can upload an image and input a question and it will generate an answer based off of the image and question. The model was trained with the VQA dataset.",
       image:
-      salaryML,
+      fastapi,
       tags: [
         "Python",
         "Docker",
