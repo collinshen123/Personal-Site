@@ -426,6 +426,34 @@ export const Bio = {
       ],
     },
     {
+      id: 9,
+      title: "FastAPI ML App",
+      date: "Sep 2023",
+      description:
+        "A Fast API app where you can upload an image and input a question and it will generate an answer based off of the image and question. The model was trained with the VQA dataset.",
+      image:
+      salaryML,
+      tags: [
+        "Python",
+        "Docker",
+        "Jupiter Notebook", 
+        "FastAPI",
+        "Pillow",
+        
+      ],
+      category: "machine learning",
+      github: "https://github.com/collinshen123/FastAPI-ML-App",
+      webapp: "",
+      member: [
+        {
+          name: "Collin Shen",
+          img: "https://avatars.githubusercontent.com/u/58667267?v=4",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
+        },
+      ],
+    },
+    {
       id: 0,
       title: "3D-shirt",
       date: "Sep 2023 - Sep 2023",
