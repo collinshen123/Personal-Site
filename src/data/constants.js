@@ -13,6 +13,7 @@ import salaryML from '../images/SalaryML.png'
 import streamlit from '../images/streamlit.png'
 import shirt from '../images/3d-shirt.png'
 import fastapi from '../images/fastapi.png'
+import ytscript from '../images/YTScript.png'
 
 export const Bio = {
     name: "Collin Shen",
@@ -350,7 +351,37 @@ export const Bio = {
   
   export const projects = [
     {
-      id: 9,
+      id: 1,
+      title: "Youtube Video Script Generator",
+      date: "Sep 2023",
+      description:
+        "A streamlit application that leverages Lanchain and the OpenAI API to generate Youtube scripts based off LLMs and Wikipedia research..",
+      image:
+        ytscript,
+      tags: [
+        "Python",
+        "LangChain",
+        "OpenAI API",
+        "Streamlit",
+        "Tiktoken",
+        "Wikipedia",
+        "LLM",
+      ],
+      category: "data science",
+      github: "https://github.com/collinshen123/LangChain-YT-script-generator",
+      webapp: "https://langchain-yt-script-generator-collin.streamlit.app/",
+      member: [
+        {
+          name: "Collin Shen",
+          img: "https://avatars.githubusercontent.com/u/58667267?v=4",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
+        },
+        
+      ],
+    },
+    {
+      id: 2,
       title: "Salaries ML Prediction Project",
       date: "Sep 2023",
       description:
@@ -380,7 +411,7 @@ export const Bio = {
       ],
     },
     {
-      id: 0,
+      id: 3,
       title: "Tweeter",
       date: "Aug 2023 - Sep 2023",
       description:
@@ -401,7 +432,7 @@ export const Bio = {
       ],
     },
     {
-      id: 9,
+      id: 4,
       title: "ML Prediction Project",
       date: "Oct 2022 - Nov 2022",
       description:
@@ -427,7 +458,7 @@ export const Bio = {
       ],
     },
     {
-      id: 9,
+      id: 5,
       title: "FastAPI ML App",
       date: "Sep 2023",
       description:
@@ -455,7 +486,7 @@ export const Bio = {
       ],
     },
     {
-      id: 0,
+      id: 6,
       title: "3D-shirt",
       date: "Sep 2023 - Sep 2023",
       description:
@@ -475,9 +506,8 @@ export const Bio = {
         },
       ],
     },
-    
     {
-      id: 9,
+      id: 7,
       title: "Olympics ML Prediction Project",
       date: "Aug 2023 - Sep 2023",
       description:
@@ -504,9 +534,8 @@ export const Bio = {
         },
       ],
     },
-    
     {
-      id: 1,
+      id: 8,
       title: "Obesity Study",
       date: "Nov 2022 - Dec 2022",
       description:
@@ -521,7 +550,7 @@ export const Bio = {
         "Redux",
         "NodeMailer",
       ],
-      category: "data analysis",
+      category: "data science",
       github: "https://github.com/info201b-au2022/project-collinshen123",
       webapp: "https://cshen123.shinyapps.io/docs/",
       member: [
@@ -546,7 +575,7 @@ export const Bio = {
       ],
     },
     {
-      id: 2,
+      id: 9,
       title: "Hate Crime Analysis",
       date: "May 2023 - June 2023",
       description:
@@ -554,7 +583,7 @@ export const Bio = {
       image:
         hateCrimes,
       tags: ["Python", "Pandas", "Numpy", "MatPlotLib", "PyCharm", "Plotly"],
-      category: "data analysis",
+      category: "data science",
       github: "https://github.com/GConscious/ProjectHateCrimes",
       member: [
         {
