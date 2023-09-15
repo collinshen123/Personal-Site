@@ -15,6 +15,8 @@ import shirt from '../images/3d-shirt.png'
 import fastapi from '../images/fastapi.png'
 import ytscript from '../images/YTScript.png'
 
+
+
 export const Bio = {
     name: "Collin Shen",
     roles: [
