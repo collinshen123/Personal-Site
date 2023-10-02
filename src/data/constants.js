@@ -481,7 +481,6 @@ export const Bio = {
       ],
       category: "machine learning",
       github: "https://github.com/collinshen123/FastAPI-ML-App",
-      webapp: "",
       member: [
         {
           name: "Collin Shen",
