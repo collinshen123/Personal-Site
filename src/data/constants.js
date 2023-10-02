@@ -427,7 +427,7 @@ export const Bio = {
       tags: ["Next.Js", "Node.js", "React", "HTML", "CSS", "JavaScript", "TypeScript"],
       category: "web app",
       github: "https://github.com/collinshen123/chirp",
-      webapp: "https://tweeter-gray.vercel.app/",
+      webapp: "https://tweeter-collin.vercel.app/",
       member: [
         {
           name: "Collin Shen",
