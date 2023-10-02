@@ -406,7 +406,7 @@ export const Bio = {
       ],
       category: "machine learning",
       github: "https://github.com/collinshen123/Salary-ML-App",
-      webapp: "https://salary-ml-prediction-collinshen.streamlit.app/",
+      webapp: "https://salary-prediction-collinshen.streamlit.app/",
       member: [
         {
           name: "Collin Shen",
