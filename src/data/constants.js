@@ -493,7 +493,7 @@ export const Bio = {
     {
       id: 6,
       title: "3D-shirt",
-      date: "Sep 2023 - Sep 2023",
+      date: "July 2023 - Sep 2023",
       description:
         "Developed a full-stack web application using Three.js that allows you to design your own shirt on a interactive 3D model. Create your own designs with your own or AI generated images.",
       image:
