@@ -425,7 +425,7 @@ export const Bio = {
       image:
         tweeter,
       tags: ["Next.Js", "Node.js", "React", "HTML", "CSS", "JavaScript", "TypeScript"],
-      category: "web app",
+      category: "fullstack",
       github: "https://github.com/collinshen123/chirp",
       webapp: "https://tweeter-collin.vercel.app/",
       member: [
@@ -499,7 +499,7 @@ export const Bio = {
       image:
         shirt,
       tags: ["Three.Js", "Node.js", "React", "HTML", "CSS", "JavaScript", "Dall-e", "OpenAI API", "Valtio"],
-      category: "web app",
+      category: "fullstack",
       github: "https://github.com/collinshen123/3D-shirt",
       webapp: "https://3d-shirt-collin.vercel.app/",
       member: [
