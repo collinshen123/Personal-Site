@@ -76,7 +76,7 @@ const Experience = () => {
             <Wrapper>
                 <Title>Experience</Title>
                 <Desc>
-                    My work and volunteer experience with different companies and projects.
+                    My work and volunteer experience with different companies and organizations.
                 </Desc>
                 <TimelineSection>
                     <Timeline>
