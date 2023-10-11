@@ -1,6 +1,6 @@
 import Fusion360Img from '../images/Fusion360.jpeg'
 import tableauicon from '../images/tableauicon.png'
-import cbatesicon from '../images/cbatesicon.png'
+import cbatesicon from '../images/cbatesicon.jpeg'
 import nhsicon from '../images/nhs.jpeg'
 import MLPredictionProject from '../images/MLPredictionProject.png'
 import tweeter from '../images/tweeter.png'
@@ -17,6 +17,7 @@ import ytscript from '../images/YTScript.png'
 import langchain from '../images/langchain.png'
 import openai from '../images/openai.jpeg'
 import uwischool from '../images/UWischool.jpeg'
+import redditicon from '../images/redditicon.png'
 
 
 export const Bio = {
@@ -216,6 +217,11 @@ export const Bio = {
             
         },
         {
+          name: "Reddit API",
+          image: redditicon,
+            
+        },
+        {
           name: "VS Code",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -274,29 +280,15 @@ export const Bio = {
     {
       id: 0,
       img: "",
-      role: "Owner and Manager",
-      company: "Elderly Support Business",
-      date: "June 2021 - Present",
+      role: "Business owner",
+      company: "Elderly Personal Services · Freelance",
+      date: "Apr 2021 - Present",
       desc: "Established a venture aimed at providing personalized in-home support services to elderly clients.",
       skills: [
         "MacOS",
         "MS Office 365",
       ],
       doc: "",
-    },
-    {
-      id: 1,
-      img: "",
-      role: "Owner and Manager",
-      company: "Second-Hand Commerce Operation",
-      date: "June 2019 - July 2022",
-      desc: "Started a second-hand e-commerce business that resold merchandise such as apparel and electronics to provided affordable and sustainable options to customers.",
-      skills: [
-        "E-Commerce",
-        "Shopify",
-        "Facebook Marketplace",
-        "Ebay", 
-      ],
     },
     {
       id: 2,
