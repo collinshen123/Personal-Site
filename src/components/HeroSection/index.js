@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import {Bio} from '../../data/constants';
 import Typewriter from 'typewriter-effect';
 import HeroBgAnimation from '../HeroBgAnimation';
-import HeroImg from '../../images/HeroImage.jpg'
+import HeroImg from '../../images/HeroImage.jpeg'
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
