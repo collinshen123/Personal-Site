@@ -18,6 +18,7 @@ import langchain from '../images/langchain.png'
 import openai from '../images/openai.jpeg'
 import uwischool from '../images/UWischool.jpeg'
 import redditicon from '../images/redditicon.png'
+import AISnake from '../images/AISnakeGame.png'
 
 
 export const Bio = {
@@ -331,12 +332,42 @@ export const Bio = {
   ];
   
   export const projects = [
+    
     {
       id: 1,
+      title: "AI Snake Game",
+      date: "Dec 2023",
+      description:
+        "A python reinforcement learning project that uses Pytorch and Pygame to train an AI to play the classic snake game.",
+      image:
+        AISnake,
+      tags: [
+        "Python",
+        "Pytorch",
+        "Pygame",
+        "Rienforcement Learning",
+        "Deep Q Learning",
+        "ML",
+      ],
+      category: "machine learning",
+      github: "https://github.com/collinshen123/AI-Snake-Game",
+      webapp: "https://github.com/collinshen123/AI-Snake-Game",
+      member: [
+        {
+          name: "Collin Shen",
+          img: "https://avatars.githubusercontent.com/u/58667267?v=4",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
+        },
+        
+      ],
+    },
+    {
+      id: 2,
       title: "Youtube Video Script Generator",
       date: "Sep 2023",
       description:
-        "A streamlit application that leverages Lanchain and the OpenAI API to generate Youtube scripts based off LLMs and Wikipedia research..",
+        "A streamlit application that leverages Lanchain and the OpenAI API to generate Youtube scripts based off LLMs and Wikipedia research.",
       image:
         ytscript,
       tags: [
@@ -361,7 +392,7 @@ export const Bio = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "Salaries ML Prediction Project",
       date: "Sep 2023",
       description:
@@ -391,7 +422,7 @@ export const Bio = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "Tweeter",
       date: "Aug 2023 - Sep 2023",
       description:
@@ -412,7 +443,7 @@ export const Bio = {
       ],
     },
     {
-      id: 4,
+      id: 5,
       title: "ML Prediction Project",
       date: "Oct 2022 - Nov 2022",
       description:
@@ -438,7 +469,7 @@ export const Bio = {
       ],
     },
     {
-      id: 5,
+      id: 6,
       title: "FastAPI ML App",
       date: "Sep 2023",
       description:
@@ -465,7 +496,7 @@ export const Bio = {
       ],
     },
     {
-      id: 6,
+      id: 7,
       title: "3D-shirt",
       date: "July 2023 - Sep 2023",
       description:
@@ -486,7 +517,7 @@ export const Bio = {
       ],
     },
     {
-      id: 7,
+      id: 8,
       title: "Olympics ML Prediction Project",
       date: "Aug 2023 - Sep 2023",
       description:
@@ -514,7 +545,7 @@ export const Bio = {
       ],
     },
     {
-      id: 8,
+      id: 9,
       title: "Obesity Study",
       date: "Nov 2022 - Dec 2022",
       description:
@@ -554,7 +585,7 @@ export const Bio = {
       ],
     },
     {
-      id: 9,
+      id: 10,
       title: "Hate Crime Analysis",
       date: "May 2023 - June 2023",
       description:
