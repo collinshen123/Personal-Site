@@ -6,7 +6,6 @@ import MLPredictionProject from '../images/MLPredictionProject.png'
 import tweeter from '../images/tweeter.png'
 import obesity from '../images/Obesity.png'
 import hateCrimes from '../images/HateCrimes.png'
-import uwLogo from '../images/UWLogo.jpeg'
 import ihs from '../images/ihs.png'
 import olympicsML from '../images/OlympicsML.png'
 import salaryML from '../images/SalaryML.png'
@@ -20,7 +19,7 @@ import uwischool from '../images/UWischool.jpeg'
 import redditicon from '../images/redditicon.png'
 import AISnake from '../images/AISnakeGame.png'
 import Chatbot from '../images/Chatbot.png'
-import UW from '../images/UWischool.jpeg'
+import UW from '../images/UW.jpeg'
 
 
 export const Bio = {
@@ -201,7 +200,8 @@ export const Bio = {
         {
           name: "Git",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
         },
         {
           name: "GitHub",
@@ -326,7 +326,7 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      img: uwLogo,
+      img: UW,
       school: "Univeristy of Washington, Seattle",
       date: "Sep 2022 - Present (Intended Graduation date 6/2025)",
       grade: "3.87",
