@@ -20,6 +20,7 @@ import uwischool from '../images/UWischool.jpeg'
 import redditicon from '../images/redditicon.png'
 import AISnake from '../images/AISnakeGame.png'
 import Chatbot from '../images/Chatbot.png'
+import UW from '../images/UWischool.jpeg'
 
 
 export const Bio = {
@@ -252,10 +253,22 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
+      img: UW,
+      role: "Undergraduate Research Assistant",
+      company: "University of Washington",
+      date: "Jan 2024 - Present",
+      desc: "Working with a team of researchers to develop a new programming language aimed to improve the accessibility of programming for users with language and vision disibilities.",
+      skills: [
+        "Wordplaypen"
+      ],
+      doc: "",
+    },
+    {
+      id: 0,
       img: uwischool,
       role: "Info 103 Teaching Assistant",
       company: "University of Washington Information School",
-      date: "Aug 2023 - Present",
+      date: "Aug 2023 - Jan 2024",
       desc: "Held office hours, graded assignments, and taught a 1 hour section every week with 35 students.",
       skills: [
         "Python",
