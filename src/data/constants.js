@@ -661,6 +661,4 @@ export const Bio = {
     
   ];
   
-  export const TimeLineData = [
-    
-  ];
+  
