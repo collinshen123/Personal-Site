@@ -117,7 +117,7 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have been working on a wide range of projects, from Machine Learning, Data Science, and FullStack applications. Here are my projects.
+          I have been working on a wide range of projects, from Machine Learning, Data Analysis, and FullStack applications. Here are my projects.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
@@ -133,9 +133,9 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'data science' ?
-            <ToggleButton active value="data science" onClick={() => setToggle('data science')}>DATA SCIENCE</ToggleButton>
+            <ToggleButton active value="data science" onClick={() => setToggle('data science')}>DATA ANALYSIS</ToggleButton>
             :
-            <ToggleButton value="data science" onClick={() => setToggle('data science')}>DATA SCIENCE</ToggleButton>
+            <ToggleButton value="data science" onClick={() => setToggle('data science')}>DATA ANALYSIS</ToggleButton>
           }
           <Divider />
           {toggle === 'fullstack' ?

@@ -19,6 +19,7 @@ import openai from '../images/openai.jpeg'
 import uwischool from '../images/UWischool.jpeg'
 import redditicon from '../images/redditicon.png'
 import AISnake from '../images/AISnakeGame.png'
+import Chatbot from '../images/Chatbot.png'
 
 
 export const Bio = {
@@ -334,9 +335,40 @@ export const Bio = {
   export const projects = [
     
     {
+      id: 11,
+      title: "Sneaker Storefront Chatbot",
+      date: "Jan 2024",
+      description:
+        "A Python chatbot project utilizing PyTorch, NLTK, and TKinter to create an interactive AI-driven experience for a sneaker storefront.",
+      image:
+        Chatbot,
+      tags: [
+        "Python",
+        "Pytorch",
+        "NLTK",
+        "Feed Forward Neural Network",
+        "Tokenization",
+        "Stemming",
+        "Bag of Words",
+        "TKinter"
+      ],
+      category: "machine learning",
+      github: "https://github.com/collinshen123/Sneaker_Storefront_ChatBot",
+      webapp: "https://github.com/collinshen123/Sneaker_Storefront_ChatBot",
+      member: [
+        {
+          name: "Collin Shen",
+          img: "https://avatars.githubusercontent.com/u/58667267?v=4",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
+        },
+        
+      ],
+    },
+    {
       id: 1,
       title: "AI Snake Game",
-      date: "Dec 2023",
+      date: "Dec 2023 - Jan 2024",
       description:
         "A python reinforcement learning project that uses Pytorch and Pygame to train an AI to play the classic snake game.",
       image:
@@ -365,7 +397,7 @@ export const Bio = {
     {
       id: 2,
       title: "Youtube Video Script Generator",
-      date: "Sep 2023",
+      date: "Sep 2023 - Nov 2023",
       description:
         "A streamlit application that leverages Lanchain and the OpenAI API to generate Youtube scripts based off LLMs and Wikipedia research.",
       image:
@@ -394,7 +426,7 @@ export const Bio = {
     {
       id: 3,
       title: "Salaries ML Prediction Project",
-      date: "Sep 2023",
+      date: "Sep 2023 - Oct 2023",
       description:
         "Developed a machine learning Decision Tree Regressor web app to predict Software Engineering salaries based off of given country, education level, and years of experiance. Model was trained with data from Stack Overflow Developer Survey 2023",
       image:
@@ -471,7 +503,7 @@ export const Bio = {
     {
       id: 6,
       title: "FastAPI ML App",
-      date: "Sep 2023",
+      date: "Sep 2023 - Oct 2023",
       description:
         "A Fast API app where you can upload an image and input a question and it will generate an answer based off of the image and question. The model was trained with the VQA dataset.",
       image:
