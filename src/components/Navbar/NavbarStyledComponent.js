@@ -80,12 +80,13 @@ export const GitHubButton = styled.a`
   align-items: center;
   height: 70%;
   border-radius: 20px;
-  color: ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.secondary};
   cursor: pointer;
-  padding: 0 20px;
+  padding: 0 15px;
+  margin-left: 5px; 
   font-weight: 500;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 13px;
   transition: all 0.6s ease-in-out;
     :hover {
       background: ${({ theme }) => theme.primary};

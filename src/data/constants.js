@@ -114,7 +114,7 @@ export const Bio = {
         {
           name: "Java",
           image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj2tmbVXq2zmoJ4U_O9LN44S1SE4enNcbnpYyYEb82Kw&s",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
         },
         {
           name: "R",
@@ -139,6 +139,10 @@ export const Bio = {
           image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
         },
         {
+          name: "Pytorch",
+          image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
+        },
+        {
           name: "Node.js",
           image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
         },
@@ -150,7 +154,7 @@ export const Bio = {
         {
           name: "MySQL",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
         },
         
         
@@ -163,7 +167,7 @@ export const Bio = {
         {
           name: "Figma",
           image:
-            "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
         },
         {
           name: "Adobe Photoshop",
@@ -207,7 +211,7 @@ export const Bio = {
         {
           name: "Docker",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
         },
         {
           name: "OpenAI API",
