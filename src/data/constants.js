@@ -20,6 +20,7 @@ import redditicon from '../images/redditicon.png'
 import AISnake from '../images/AISnakeGame.png'
 import Chatbot from '../images/Chatbot.png'
 import UW from '../images/UW.jpeg'
+import closebot from '../images/closebot.png'
 
 
 export const Bio = {
@@ -252,6 +253,20 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
+      img: closebot,
+      role: "Machine Learning Intern",
+      company: "CloseBot AI",
+      date: "Feb 2024 - Present",
+      desc: "Exploring AI-driven conversational technology as an Intern at CloseBot AI. Actively working with industry leaders to contribute to chatbot development that specializes in Natural Language Processing. Enthusiastically advancing innovation in human-computer interaction solutions.",
+      skills: [
+        "Python",
+        "Prompt Engineering",
+        "OpenAI API",
+      ],
+      doc: "",
+    },
+    {
+      id: 0,
       img: UW,
       role: "Undergraduate Research Assistant",
       company: "University of Washington",
@@ -349,7 +364,7 @@ export const Bio = {
     {
       id: 11,
       title: "Sneaker Storefront Chatbot",
-      date: "Jan 2024",
+      date: "Dec 2023 - Jan 2024",
       description:
         "A Python chatbot project utilizing PyTorch, NLTK, and TKinter to create an interactive AI-driven experience for a sneaker storefront.",
       image:
