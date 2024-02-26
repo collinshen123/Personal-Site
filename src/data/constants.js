@@ -319,21 +319,7 @@ export const Bio = {
       ],
       doc: "",
     },
-    {
-      id: 2,
-      img: nhsicon,
-      role: "Volunteer and Fundraiser",
-      company: "National Honor Society",
-      date: "May 2017 - June 2022",
-      desc: "Contributed a total of 180 hours to various activities that benefited the local community. Activities included: raising funds, collecting donations at food or clothing drives, running events for younger age groups, playing music at public gatherings, and communal landscaping.",
-      skills: [
-        "Leadership",
-        "Fundraising",
-        "Community Service",
-        "Public Speaking",
-      ],
-      doc: "",
-    },
+    
     
   ];
   
@@ -437,7 +423,7 @@ export const Bio = {
         "Wikipedia",
         "LLM",
       ],
-      category: "data science",
+      category: "machine learning",
       github: "https://github.com/collinshen123/LangChain-YT-script-generator",
       webapp: "https://langchain-yt-script-generator-collin.streamlit.app/",
       member: [
