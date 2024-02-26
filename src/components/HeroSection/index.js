@@ -12,6 +12,7 @@ export const HeroContainer = styled.div`
   position: relative;
   padding: 80px 30px;
   margin-bottom: 80px;
+  margin-top: 30px;
   @media (max-width: 960px) {
     padding: 66px 16px;
   }
