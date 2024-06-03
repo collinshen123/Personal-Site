@@ -21,18 +21,22 @@ import AISnake from '../images/AISnakeGame.png'
 import Chatbot from '../images/Chatbot.png'
 import UW from '../images/UW.jpeg'
 import closebot from '../images/closebot.png'
+import lambda from '../images/Lambda.png'
+import huggingface from '../images/hf-logo.png'
+import gpt2 from '../images/gpt2.jpeg'
+import datathon from '../images/datathon.png'
 
 
 export const Bio = {
     name: "Collin Shen",
     roles: [
-      "Data Scientist",
-      "Full Stack Developer",
       "ML Engineer",
-      "UI/UX Designer",
+      "Data Scientist",
+      "Real Estate Wholesaler",
+      
     ],
     description:
-      "I am a third year student studying Informatics at the University of Washington. I am a motivated and versatile individual, always eager to take on new challenges. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "I'm a student at the University of Washington majoring in Informatics with a specialization in Data Science. My passion lies in leveraging machine learning to create innovative solutions. I am currently interning at CloseBot AI, where I'm developing AI conversational technologies and optimizing chatbot performance using NLP and LLM Fine-tuning. I'm also currently starting a real estate wholesaling business. With a strong background in tech and a keen business mindset, I am excited to bring my skills to any dynamic environment. I'd love to discuss any potential opportunities.",
     github: "https://github.com/collinshen123",
     resume:
       "https://docs.google.com/document/d/12TS8kAHh3cuzrX_yW4odsFd3dHukmL6y64LixXkITFM/edit?usp=sharing",
@@ -43,6 +47,92 @@ export const Bio = {
   };
   
   export const skills = [
+    {
+      title: "ML/AI",
+      skills: [
+        
+        {
+          name: "AWS Lambda",
+          image:
+            lambda,
+        },
+        {
+          name: "langchain",
+          image: langchain,
+        },
+        {
+          name: "Pytorch",
+          image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
+        },
+        {
+          name: "Hugging Face",
+          image: huggingface,
+        },
+        {
+          name: "OpenAI API",
+          image: openai,
+            
+        },
+        {
+          name: "Reddit API",
+          image: redditicon,
+            
+        },
+        
+      ],
+    },
+    {
+      title: "Backend",
+      skills: [
+        
+        
+        {
+          name: "Python",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+        },
+        {
+          name: "Java",
+          image:
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+        },
+        {
+          name: "R",
+          image:
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg",
+        },
+        
+        {
+          name: "sqlite",
+          image: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sqlite/sqlite-original.svg",
+        },
+        {
+          name: "Pandas",
+          image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
+        },
+        {
+          name: "Numpy",
+          image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
+        },
+        
+        {
+          name: "Node.js",
+          image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        },
+        {
+          name: "JavaScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
+        {
+          name: "TypeScript",
+          image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/128px-Typescript.svg.png"        
+        },
+        
+        
+      ],
+    },
     {
       title: "Frontend",
       skills: [
@@ -75,105 +165,11 @@ export const Bio = {
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
         },
-        {
-          name: "JavaScript",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-        },
-        {
-          name: "TypeScript",
-          image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/128px-Typescript.svg.png"        
-        },
-        // {
-        //   name: "Bootstrap",
-        //   image:
-        //     "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-        // },
-        // {
-        //   name: "Material UI",
-        //   image:
-        //     "data:image/png;base64,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",
-        // },
-        // {
-        //   name: "Flutter",
-        //   image:
-        //     "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
-        // },
-      ],
-    },
-    {
-      title: "Backend",
-      skills: [
         
-        
-        {
-          name: "Python",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-        },
-        {
-          name: "Java",
-          image:
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-        },
-        {
-          name: "R",
-          image:
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg",
-        },
-        
-        {
-          name: "sqlite",
-          image: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sqlite/sqlite-original.svg",
-        },
-        {
-          name: "langchain",
-          image: langchain,
-        },
-        {
-          name: "Pandas",
-          image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
-        },
-        {
-          name: "Numpy",
-          image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
-        },
-        {
-          name: "Pytorch",
-          image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
-        },
-        {
-          name: "Node.js",
-          image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-        },
-        {
-          name: "MongoDB",
-          image:
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-        },
-        {
-          name: "MySQL",
-          image:
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-        },
-        
-        
-        
-      ],
-    },
-    {
-      title: "Design",
-      skills: [
         {
           name: "Figma",
           image:
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-        },
-        {
-          name: "Adobe Photoshop",
-          image:
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-line.svg",
         },
         {
           name: "Blender",
@@ -185,13 +181,6 @@ export const Bio = {
           image:
             Fusion360Img,
         },
-        {
-          name: "Adobe Illistrator",
-          image:
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-line.svg",
-        },
-
-        
       ],
     },
     {
@@ -214,16 +203,7 @@ export const Bio = {
           image:
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
         },
-        {
-          name: "OpenAI API",
-          image: openai,
-            
-        },
-        {
-          name: "Reddit API",
-          image: redditicon,
-            
-        },
+        
         {
           name: "VS Code",
           image:
@@ -328,25 +308,79 @@ export const Bio = {
       id: 0,
       img: UW,
       school: "Univeristy of Washington, Seattle",
-      date: "Sep 2022 - Present (Intended Graduation date 6/2025)",
+      date: "Graduation date 6/2025",
       grade: "3.87",
       desc: "I am currently pursuing a Bachelor's degree in Informatics at the University of Washington, Seattle. I am intending to double major in Data Science. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Applied Analytics Club, where I am learning and working on exciting projects with a team of talented developers.",
       degree: "Informatics - Data Science",
-    },
-    {
-      id: 1,
-      img: ihs,
-      school: "Inglemoor High School, Kenmore",
-      date: "Sep 2017 - June 2022",
-      grade: "3.96",
-      desc: "I completed the International Baccalaureate (IB) program during my four-year high school tenure, demonstrating strong academic commitment and interdisciplinary skills. I achieved recognition by advancing to the state level in the Technology Student Association (TSA), showcasing my dedication to extracurricular excellence.",
-
-    },
+    }
+    
    
   ];
   
   export const projects = [
     
+    {
+      id: 13,
+      title: "GPT-2 From Scratch",
+      date: "Apr 2024 - Jun 2024",
+      description:
+        "An implementation of a transformer model from scratch. Diving deep into the internals of a transformer using Mechanistic Interpretability.",
+      image:
+        gpt2,
+      tags: [
+        "Python",
+        "Jupyter Notebook",
+        "Tokenization",
+        "Positional Embedding",
+        "MLP",
+        "Attention",
+        "Unembedding",
+      ],
+      category: "machine learning",
+      github: "https://github.com/collinshen123/Sneaker_Storefront_ChatBot",
+      webapp: "https://github.com/collinshen123/Sneaker_Storefront_ChatBot",
+      member: [
+        {
+          name: "Collin Shen",
+          img: "https://avatars.githubusercontent.com/u/58667267?v=4",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
+        },
+        
+      ],
+    },
+    {
+      id: 12,
+      title: "Border Crossing ARIMA Model",
+      date: "May 2024",
+      description:
+        "This project analyzes US border crossing data and uses time series forecasting (ARIMA model) to predict future border crossing volumes.",
+      image:
+        datathon,
+      tags: [
+        "Python",
+        "Jupyter Notebook",
+        "ARIMA",
+        "Pandas",
+        "Matplotlib",
+        "Scikit-learn",
+        "NumPy",
+        "Pickle",
+        "Streamlit"
+      ],
+      category: "machine learning",
+      github: "https://github.com/collinshen123/Sneaker_Storefront_ChatBot",
+      webapp: "https://github.com/collinshen123/Sneaker_Storefront_ChatBot",
+      member: [
+        {
+          name: "Collin Shen",
+          img: "https://avatars.githubusercontent.com/u/58667267?v=4",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
+        },
+        
+      ],
+    },
     {
       id: 11,
       title: "Sneaker Storefront Chatbot",
