@@ -337,8 +337,8 @@ export const Bio = {
         "Unembedding",
       ],
       category: "machine learning",
-      github: "https://github.com/collinshen123/Sneaker_Storefront_ChatBot",
-      webapp: "https://github.com/collinshen123/Sneaker_Storefront_ChatBot",
+      github: "https://github.com/collinshen123/Mechanistic-Interpretability",
+      webapp: "https://github.com/collinshen123/Mechanistic-Interpretability",
       member: [
         {
           name: "Collin Shen",
@@ -369,8 +369,8 @@ export const Bio = {
         "Streamlit"
       ],
       category: "machine learning",
-      github: "https://github.com/collinshen123/Sneaker_Storefront_ChatBot",
-      webapp: "https://github.com/collinshen123/Sneaker_Storefront_ChatBot",
+      github: "https://github.com/collinshen123/Dubstech-Datathon-24",
+      webapp: "https://collinshen123-dubstech-datathon-2-ml-modelprediction-app-nyliap.streamlit.app/",
       member: [
         {
           name: "Collin Shen",
