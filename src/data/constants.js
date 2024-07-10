@@ -25,6 +25,7 @@ import lambda from '../images/Lambda.png'
 import huggingface from '../images/hf-logo.png'
 import gpt2 from '../images/gpt2.jpeg'
 import datathon from '../images/datathon.png'
+import fina from '../images/fina.png'
 
 
 export const Bio = {
@@ -32,11 +33,11 @@ export const Bio = {
     roles: [
       "ML Engineer",
       "Data Scientist",
-      "Real Estate Wholesaler",
+      "AI Integration Engineer",
       
     ],
     description:
-      "I'm a student at the University of Washington majoring in Informatics with a specialization in Data Science. My passion lies in leveraging machine learning to create innovative solutions. I am currently interning at CloseBot AI, where I'm developing AI conversational technologies and optimizing chatbot performance using NLP and LLM Fine-tuning. I'm also currently starting a real estate wholesaling business. With a strong background in tech and a keen business mindset, I am excited to bring my skills to any dynamic environment. I'd love to discuss any potential opportunities.",
+      "I'm a student at the University of Washington majoring in Informatics with a specialization in Data Science. My passion lies in leveraging machine learning to create innovative solutions. I am currently interning at Fina Money, where I'm integrating AI technologies with a personal finance app. I'm also interning at CloseBot AI, where I'm developing AI conversational technologies and optimizing chatbot performance using NLP and LLM Fine-tuning. With a strong background in tech and a keen business mindset, I am excited to bring my skills to any dynamic environment. I'd love to discuss any potential opportunities.",
     github: "https://github.com/collinshen123",
     resume:
       "https://docs.google.com/document/d/12TS8kAHh3cuzrX_yW4odsFd3dHukmL6y64LixXkITFM/edit?usp=sharing",
@@ -103,8 +104,13 @@ export const Bio = {
         },
         
         {
-          name: "sqlite",
-          image: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sqlite/sqlite-original.svg",
+          name: "SQL",
+          image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg",
+        },
+        {
+          name: "TypeScript",
+          image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/128px-Typescript.svg.png"        
         },
         {
           name: "Pandas",
@@ -114,21 +120,25 @@ export const Bio = {
           name: "Numpy",
           image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
         },
+        {
+          name: "Firebase",
+          image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
+        },
         
         {
           name: "Node.js",
           image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
         },
         {
+          name: "Nest.js",
+          image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg",
+        },
+        {
           name: "JavaScript",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
-        {
-          name: "TypeScript",
-          image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/128px-Typescript.svg.png"        
-        },
+        
         
         
       ],
@@ -233,11 +243,26 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
+      img: fina,
+      role: "AI Integration Intern",
+      company: "Fina Money",
+      date: "Jun 2024 - Present",
+      desc: "Personal finance management development, specializing in integrating AI features and conversational technology. Leveraging TypeScript and OpenAI to integrate AI budgeting tools and chatbot features into a personal finance app.",
+      skills: [
+        "Type Script",
+        "OpenAI API",
+        "Prompt Engineering",
+        "Nest.js"
+      ],
+      doc: "",
+    },
+    {
+      id: 0,
       img: closebot,
       role: "Machine Learning Intern",
       company: "CloseBot AI",
       date: "Feb 2024 - Present",
-      desc: "Exploring AI-driven conversational technology as an Intern at CloseBot AI. Actively working with industry leaders to contribute to chatbot development that specializes in Natural Language Processing. Enthusiastically advancing innovation in human-computer interaction solutions.",
+      desc: "AI conversational technology development, specializing in NLP and LLMs, in collaboration with industry leaders. Engineered chatbot optimization using Python and AWS Lambda, reducing OpenAI call dependency by 40% and slashing operational costs by $15,000 annually.",
       skills: [
         "Python",
         "Prompt Engineering",
