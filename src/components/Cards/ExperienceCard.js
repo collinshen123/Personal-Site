@@ -18,7 +18,7 @@ const Description = styled.div`
     font-size: 15px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 99};
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
@@ -174,6 +174,33 @@ const ExperienceCard = ({ experience }) => {
                     </>
                 }
             </Description>
+            {experience?.link && (
+                <div style={{ marginTop: '1px' }}>
+                    <b>Experience Summary:</b>
+                    <div style={{ display: 'flex', alignItems: 'center', marginTop: '5px' }}>
+                        <img 
+                            src={experience.linkImg} // Link-specific image
+                            alt="Link Preview" 
+                            style={{ width: '50px', height: '50px', marginRight: '10px', borderRadius: '4px' }} 
+                        />
+                        <div>
+                            <a 
+                                href={experience.link} 
+                                target="_blank" 
+                                rel="noopener noreferrer" 
+                                style={{ display: 'block', color: '#007BFF', textDecoration: 'none' }} // Darker blue
+                            >
+                                {experience.linkName || experience.link} {/* Fallback to link if linkName is not provided */}
+                            </a>
+                            {experience.linkDescription && (
+                                <p style={{ margin: '0', fontSize: '12px', color: '#555' }}>
+                                    {experience.linkDescription} {/* Description text */}
+                                </p>
+                            )}
+                        </div>
+                    </div>
+                </div>
+            )}
             {experience.doc &&
                 <a href={experience.doc} target="new">
                     <Document src={experience.doc} />
