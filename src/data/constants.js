@@ -255,6 +255,7 @@ export const Bio = {
           "Prompt Engineering",
           "HTTP Requests",
           "Nest.js",
+          "SQL",
       ],
       link: "https://medium.com/@collinshen123/leveraging-ai-to-simplify-personal-finance-my-summer-internship-at-fina-aa7cf4927a8e",
       linkName: "Leveraging AI to Simplify Personal Finance: My Summer Internship at Fina", 
