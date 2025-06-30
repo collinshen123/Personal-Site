@@ -6,3 +6,5 @@ I am a third year student studying Informatics at the University of Washington. 
 This Personal accomplishments site was created using React. It is hosted on Vercel and can be found at https://personal-site-collin-shen.vercel.app/.
 My site includes About, Skills, Experience, Projects, Education, and Contact sections. The contact section uses an emailjs API to send emails to my personal email address. 
 The site is responsive and can be viewed on mobile devices.
+
+Use `npm start` to run the site locally.

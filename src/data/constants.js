@@ -28,6 +28,8 @@ import datathon from '../images/datathon.png'
 import fina from '../images/fina.png'
 import finaProject from '../images/finaProject.png'
 import finaLinkPreview from '../images/finaLinkPreview.png'
+import vitaLogo from '../images/vitaLogo.png'
+import vectorDB from '../images/vectorDB.png'
 
 
 export const Bio = {
@@ -39,7 +41,7 @@ export const Bio = {
       
     ],
     description:
-      "Hi, I'm Collin Shen, a junior at the University of Washington majoring in Informatics with a specialization in Data Science. My passion lies in leveraging machine learning to create innovative solutions. I am currently seeking Data Science and AI Engineering opportunities. I am ready to apply my Machine Learning skills and experience. I am also currently starting my own real estate wholesaling business. With a strong background in technology development and a keen business mindset, I am excited to bring my skills to any dynamic environment. I'd love to discuss any potential opportunities.",
+      "Hi, I'm Collin Shen, an AI Engineer who graduated from the University of Washington. My passion lies in leveraging machine learning to create innovative solutions. I am currently seeking Data Science and AI Engineering opportunities. I am ready to apply my Machine Learning skills and experience. I am also currently cofounding an AI Startup that blends social media with AI Agents. With a strong background in technology development and a keen business mindset, I am excited to bring my skills to any dynamic environment. I'd love to discuss any potential opportunities.",
     github: "https://github.com/collinshen123",
     resume:
       "https://docs.google.com/document/d/12TS8kAHh3cuzrX_yW4odsFd3dHukmL6y64LixXkITFM/edit?usp=sharing",
@@ -55,11 +57,6 @@ export const Bio = {
       skills: [
         
         {
-          name: "AWS Lambda",
-          image:
-            lambda,
-        },
-        {
           name: "langchain",
           image: langchain,
         },
@@ -68,18 +65,37 @@ export const Bio = {
           image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
         },
         {
-          name: "Hugging Face",
-          image: huggingface,
-        },
-        {
           name: "OpenAI API",
           image: openai,
             
         },
         {
+          name: "Hugging Face",
+          image: huggingface,
+        },
+        {
+          name: "Pydantic",
+          image:
+            "https://avatars.githubusercontent.com/u/110818415?s=200&v=4",
+        },
+        {
+          name: "Embedding Models",
+          image:
+            "",
+        },
+        {
+          name: "Semantic Search Algorithms",
+          image: "",
+        },
+        {
           name: "Reddit API",
           image: redditicon,
             
+        },
+        {
+          name: "AWS Lambda",
+          image:
+            lambda,
         },
         
       ],
@@ -103,6 +119,11 @@ export const Bio = {
           name: "R",
           image:
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg",
+        },
+        {
+          name: "FastAPI",
+          image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg"        
         },
         
         {
@@ -245,6 +266,25 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
+      img: vitaLogo,
+      role: "Co-Founder & Fullstack AI Engineer",
+      company: "Stealth Startup",
+      date: "Nov 2024 - Present",
+      desc: "Architected a multi-agent AI system using LangChain, LangGraph, RAG, and persistent memory that transforms social media content into actionable health and wellness plans with real-time personalization. Built and deployed key infrastructure with FastAPI and AWS Lambda, including OAuth social integrations, content recommendation pipelines, and AI-driven video summarization with location/calendar-based triggers. Defined product roadmap, co-authored the business plan, and helped drive early investor interest for scaling into the $4B+ digital wellness market. Operated independently in an async, fast-paced environment, owning full-stack delivery from prototype to deployment.",
+      skills: [
+          "RAG",
+          "LangChain",
+          "Multimodal Video Summarization",
+          "AI Agent Design",
+          "Entrepreneurial Product Development",
+      ],
+      link: "https://vitaai-phi.vercel.app/login",
+      linkName: "Personalized AI Lifestyle Planner using RAG, LangChain, and Multimodal Summarization.", 
+      linkImg: vitaLogo,
+
+    },
+    {
+      id: 0,
       img: fina, // Image for the entire entry
       role: "AI Software Development Intern",
       company: "Fina",
@@ -340,16 +380,46 @@ export const Bio = {
       id: 0,
       img: UW,
       school: "Univeristy of Washington, Seattle",
-      date: "Graduation date 6/2025",
-      grade: "3.87",
-      desc: "I am currently pursuing a Bachelor's degree in Informatics at the University of Washington, Seattle. I am intending to double major in Data Science. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Applied Analytics Club, where I am learning and working on exciting projects with a team of talented developers.",
-      degree: "Informatics - Data Science",
+      date: "9/2022 - 6/2025",
+      grade: "3.8",
+      desc: "I have completed a Bachelor's degree in Informatics with a focus in Data Science at the University of Washington, Seattle. I have taken courses in Data Structures & Algorithms, Search and Recommendation Systems, Object-Oriented Programming, Machine Learning, Database Management Systems, among others.",
+      degree: "Data Science",
     }
     
    
   ];
   
   export const projects = [
+    {
+      id: 14,
+      title: "Vector DB From Scratch",
+      date: "Jun 2025",
+      description:
+        "Built a custom vector database from scratch with embedding generation and semantic search using a HuggingFace model called sentence transformers and FastAPI",
+      image:
+      vectorDB,
+      tags: [
+        "Embedding Models",
+        "Semantic Search Algorithms",
+        "Pydantic Validation ",
+        "FastAPI",
+        "Docker Containerization",
+
+
+      ],
+      category: "machine learning",
+      github: "https://github.com/collinshen123/vector-db-api",
+      webapp: "",
+      member: [
+        {
+          name: "Collin Shen",
+          img: "https://avatars.githubusercontent.com/u/58667267?v=4",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
+        },
+        
+      ],
+    },    
     {
       id: 14,
       title: "Personal Finance AI",
