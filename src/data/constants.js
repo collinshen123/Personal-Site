@@ -30,22 +30,23 @@ import finaProject from '../images/finaProject.png'
 import finaLinkPreview from '../images/finaLinkPreview.png'
 import vitaLogo from '../images/vitaLogo.png'
 import vectorDB from '../images/vectorDB.png'
+import ecommerce from '../images/ecommerce.png'
+import form from '../images/form.png'
 
 
 export const Bio = {
     name: "Collin Shen",
     roles: [
-      "ML Engineer",
-      "Data Scientist",
       "AI Engineer",
-      
+      "Fullstack Engineer",
+      "Data Scientist",
     ],
     description:
-      "Hi, I'm Collin Shen, an AI Engineer who graduated from the University of Washington. My passion lies in leveraging machine learning to create innovative solutions. I am currently seeking Data Science and AI Engineering opportunities. I am ready to apply my Machine Learning skills and experience. I am also currently cofounding an AI Startup that blends social media with AI Agents. With a strong background in technology development and a keen business mindset, I am excited to bring my skills to any dynamic environment. I'd love to discuss any potential opportunities.",
+      "Hi, I'm Collin, an AI Engineer and builder focused on shipping production-ready AI systems. I've designed multi-agent architectures with LangChain and LangGraph, built and deployed full-stack AI features at Fina, and co-founded an AI startup that blends social media with intelligent agents. My experience spans prompt engineering, LLM infrastructure, vector databases, and scalable microservices. I thrive in fast-paced environments where I can work close to users, iterate quickly, and turn ambiguous problems into impactful AI products. I’m currently exploring AI Engineering and Forward Deployed Engineering roles where I can contribute end-to-end technical execution.",
     github: "https://github.com/collinshen123",
     resume:
       "https://docs.google.com/document/d/12TS8kAHh3cuzrX_yW4odsFd3dHukmL6y64LixXkITFM/edit?usp=sharing",
-    linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+    linkedin: "https://www.linkedin.com/in/collin-shen123/",
     twitter: "https://twitter.com/collin70556799",
     insta: "https://www.instagram.com/collin_shen/",
     facebook: "https://www.facebook.com/profile.php?id=100086144701351",
@@ -266,6 +267,22 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
+      img: fina,
+      role: "Fullstack AI Engineer",
+      company: "Fina",
+      date: "Aug 2025 - Present",
+      desc: "Designed and optimized prompts using LangChain, OpenAI, and Redis to tune Fina's AI chatbot with REST api integrations, participating in agile sprint planning and CI/CD pipelines for automated deployment to production. Developed the AI Native mobile app MVP for iOS and Android using React Native and WebView with Docker containerization, enabling users to access Fina's web platform seamlessly on mobile devices.",
+      skills: [
+          "LangChain",
+          "LLM",
+          "CI/CD",
+          "React Native",
+          "Redis",
+      ],
+
+    },
+    {
+      id: 0,
       img: vitaLogo,
       role: "Co-Founder & Fullstack AI Engineer",
       company: "Stealth Startup",
@@ -293,8 +310,8 @@ export const Bio = {
       skills: [
           "OpenAI API",
           "Prompt Engineering",
-          "HTTP Requests",
-          "Nest.js",
+          "REST API",
+          "Next.js",
           "SQL",
       ],
       link: "https://medium.com/@collinshen123/leveraging-ai-to-simplify-personal-finance-my-summer-internship-at-fina-aa7cf4927a8e",
@@ -383,13 +400,76 @@ export const Bio = {
       date: "9/2022 - 6/2025",
       grade: "3.8",
       desc: "I have completed a Bachelor's degree in Informatics with a focus in Data Science at the University of Washington, Seattle. I have taken courses in Data Structures & Algorithms, Search and Recommendation Systems, Object-Oriented Programming, Machine Learning, Database Management Systems, among others.",
-      degree: "Data Science",
+      degree: "Informatics - Data Science",
     }
     
    
   ];
   
   export const projects = [
+    {
+      id: 14,
+      title: "E-commerce AI Agent",
+      date: "Oct 2025",
+      description:
+        "Architected a multimodal AI shopping assistant using a single LangGraph agent that intelligently decides between LangChain tool calls for text-based semantic search and CLIP-powered image-to-product matching, leveraging Sentence Transformers and ChromaDB vector database for intelligent recommendations. Built full-stack application with FastAPI backend and Next.js/TypeScript frontend, implementing hybrid search with vector embeddings and metadata filtering (price, brand, rating) for real-time product recommendations across 100+ products",
+      image:
+      ecommerce,
+      tags: [
+        "Langgraph",
+        "Sentence Transformer",
+        "ChromaDB",
+        "FastAPI",
+        "Next.js",
+        "Docker",
+
+
+      ],
+      category: "machine learning",
+      github: "https://github.com/collinshen123/ecommerce-ai-agent",
+      webapp: "",
+      member: [
+        {
+          name: "Collin Shen",
+          img: "https://avatars.githubusercontent.com/u/58667267?v=4",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
+        },
+        
+      ],
+    }, 
+    {
+      id: 14,
+      title: "Form Management Chatbot",
+      date: "Oct 2025",
+      description:
+        "Engineered an AI-powered chatbot using OpenAI function calling and FastAPI to collect structured user data, implementing SQLAlchemy database models and REST API endpoints for CRUD operations with status validation. Developed full-stack interface with Next.js and React for real-time form display and filtering, designing a scalable revision history system to track field-level changes across database entities.",
+      image:
+      form,
+      tags: [
+        "Langgraph",
+        "SQLAlchemy",
+        "FastAPI",
+        "Next.js",
+        "React",
+        "CRUD",
+        "Pydantic",
+
+
+      ],
+      category: "machine learning",
+      github: "https://github.com/collinshen123/Form-Management-Chatbot",
+      webapp: "",
+      member: [
+        {
+          name: "Collin Shen",
+          img: "https://avatars.githubusercontent.com/u/58667267?v=4",
+          linkedin: "https://www.linkedin.com/in/collin-shen-50806a228/",
+          github: "https://github.com/collinshen123",
+        },
+        
+      ],
+    }, 
     {
       id: 14,
       title: "Vector DB From Scratch",
